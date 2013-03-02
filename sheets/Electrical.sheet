@@ -4,15 +4,67 @@
 <name>Electrical</name>
 <description>Electricity symbols for floor plans (based on Belgium regulations)</description>
 <contents>
+	<object name="Electrical - S1p">
+		<description>Switch - 1 Pole</description>
+		<description xml:lang="nl">Schakelaar - Eenpolig</description>
+	</object>
+	<object name="Electrical - S2p"><description>Switch - 2 Pole</description></object>
+	<object name="Electrical - S3p"><description>Switch - 3 Pole</description></object>
+	<object name="Electrical - S4p"><description>Switch - 4 Pole</description></object>
+
+	<object name="Electrical - Sd1p"><description>Dual Switch - 1 Pole</description></object>
+	<object name="Electrical - Sd2p"><description>Dual Switch - 2 Pole</description></object>
+	<object name="Electrical - Sd3p"><description>Dual Switch - 3 Pole</description></object>
+	<object name="Electrical - Sd4p"><description>Dual Switch - 4 Pole</description></object>
+
+	<object name="Electrical - Sy1p"><description>2 Way Switch - 1 Pole</description></object>
+	<object name="Electrical - Sy2p"><description>2 Way Switch - 2 Pole</description></object>
+	<object name="Electrical - Sy3p"><description>2 Way Switch - 3 Pole</description></object>
+	<object name="Electrical - Sy4p"><description>2 Way Switch - 4 Pole</description></object>
+
 	<object name="Electrical - Sx1p"><description>4 Way Switch - 1 Pole</description></object>
 	<object name="Electrical - Sx2p"><description>4 Way Switch - 2 Pole</description></object>
 	<object name="Electrical - Sx4p"><description>4 Way Switch - 4 Pole</description></object>
+
 	<object name="Electrical - Socket"><description>Socket</description></object>
 	<object name="Electrical - SocketGround"><description>Socket Grounded</description></object>
+	<object name="Electrical - SocketGroundChild"><description>Socket Grounded Child Proof</description></object>
+	<object name="Electrical - SocketChild"><description>Socket Child Proof</description></object>
+
 	<object name="Electrical - Light"><description>Light</description></object>
+	<object name="Electrical - Bel"><description>Bel</description></object>
+	<object name="Electrical - Buzzer"><description>Buzzer</description></object>
+
 	<object name="Electrical - Fuse Melt"><description>Fuse Melt</description></object>
 	<object name="Electrical - Fuse Auto"><description>Fuse Auto</description></object>
+
 	<object name="Electrical - Device"><description>Fixed Generic Device</description></object>
 	<object name="Electrical - Device Furnace"><description>Fixed Furnace</description></object>
+
+	<object name="Electrical - Grounding Strip"><description>Grounding Strip</description></object>
+	<object name="Electrical - Dispatch Box"><description>Dispatch Box</description></object>
+	<object name="Electrical - Dispatch Panel"><description>Dispatch Panel</description></object>
+
+	<object name="Electrical - Grounding"><description>Grounding</description></object>
+	<object name="Electrical - DC"><description>Direct Current</description></object>
+	<object name="Electrical - AC"><description>Alternating Current</description></object>
+	<object name="Electrical - AC1"><description>Alternating Current - 1 Phase</description></object>
+	<object name="Electrical - AC3"><description>Alternating Current - 3 Phase</description></object>
+
+	<object name="Electrical - In ground"><description>Carrier underground</description></object>
+	<object name="Electrical - In air"><description>Carrier in air</description></object>
+	<object name="Electrical - In tube"><description>Carrier in tube</description></object>
+	<object name="Electrical - In wall"><description>Carrier in wall</description></object>
+	<object name="Electrical - On wall"><description>Carrier on wall</description></object>
+
+	<object name="Electrical - 1 wire"><description>Carrier: 1 wire</description></object>
+	<object name="Electrical - 2 wire"><description>Carrier: 2 wires</description></object>
+	<object name="Electrical - 3 wire"><description>Carrier: 3 wires</description></object>
+	<object name="Electrical - n wire"><description>Carrier: n wires (set font to 12pt)</description></object>
+
+	<object name="Electrical - 1 carrier"><description>Carriers 1 e</description></object>
+	<object name="Electrical - 2 carriers"><description>Carriers 2 </description></object>
+	<object name="Electrical - 3 carriers"><description>Carriers 3 </description></object>
+	<object name="Electrical - n carriers"><description>Carriers n  (set font to 12pt)</description></object>
 </contents>
 </sheet>

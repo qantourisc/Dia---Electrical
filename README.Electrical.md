@@ -1,5 +1,9 @@
 Dia symbols for electricity in BE (and EU ?)
 ============================================
+Please be noted: These can't be used yet in Dia:
+Place them on a sheet export to SVG, and use them in another program.
+Currently it's impossible to rotate text or shapes, as a result, you cannot create a correct electrical drawing.
+
 Why?
 ----
 I needed it and didn't want to pay for Visio (or anything else).
