@@ -61,5 +61,10 @@
 	<object name="Electrical - 2 wire"><description>Carrier: 2 wires</description></object>
 	<object name="Electrical - 3 wire"><description>Carrier: 3 wires</description></object>
 	<object name="Electrical - n wire"><description>Carrier: n wires (set font to 12pt)</description></object>
+
+	<object name="Electrical - 1 carrier"><description>Carriers 1 e</description></object>
+	<object name="Electrical - 2 carriers"><description>Carriers 2 </description></object>
+	<object name="Electrical - 3 carriers"><description>Carriers 3 </description></object>
+	<object name="Electrical - n carriers"><description>Carriers n  (set font to 12pt)</description></object>
 </contents>
 </sheet>
