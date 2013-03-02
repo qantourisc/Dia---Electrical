@@ -3,15 +3,18 @@
 	<name>Electrical - Device Furnace</name>
 	<icon>devicefurnace.png</icon>
 	<connections>
-		<point x="-0.7"     y="0" main="yes"/>
+		<point x="0"    y="0" main="yes"/>
+		<point x="-0.6" y="0"/>
+		<point x="0.6" y="0"/>
+		<point x="0" y="-0.6"/>
+		<point x="0" y="0.6"/>
 	</connections>
 	<aspectratio type="fixed"/>
 	<default-width>2cm</default-width>
 	<default-height>2cm</default-height>
 	<textbox x1="0.6" y1="0.6" x2="0.7" y2="0.3" align="left" resize="no"/>
 	<svg:svg>
-		<svg:line style="stroke-linecap: round" x1="-0.6" x2="-0.7" y1="0" y2="0" />
-		<svg:polygon style="stroke-linejoin: bevel; fill:default"
+		<svg:polygon style="stroke-linejoin: round; fill:default"
 			points="-0.6,-0.6 0.6,-0.6 0.6,0.6 -0.6,0.6"
 		/>
 		<svg:circle style="fill: black" cx="0.3" cy="0.3" r="0.15"/>

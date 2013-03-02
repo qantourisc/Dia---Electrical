@@ -9,12 +9,12 @@
 	<aspectratio type="fixed"/>
 	<default-width>1cm</default-width>
 	<default-height>1cm</default-height>
-	<textbox x1="0.6" y1="0.6" x2="0.7" y2="0.3" align="left" resize="no"/>
+	<textbox x1="0.0" y1="0.15" x2="0.1" y2="-0.15" align="left" resize="no"/>
 	<svg:svg>
 		<svg:line style="stroke-linecap: round" y1="0.3" y2="0.5" x1="0" x2="0"/>
 		<svg:line style="stroke-linecap: round" y1="-0.3" y2="-0.5" x1="0" x2="0"/>
 		<svg:line style="stroke-linecap: round" y1="0.3" y2="-0.3" x1="0" x2="-0.2"/>
-		<svg:polygon style="stroke-linejoin: bevel; fill:black"
+		<svg:polygon style="stroke-linejoin: round; fill:black"
 			points="-0.2,-0.3 -0.15,-0.15 -0.3,-0.1 -0.35,-0.25"
 		/>		
 		<!-- Filler to keep snapping sane and consistent -->
