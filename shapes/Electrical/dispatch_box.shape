@@ -2,12 +2,12 @@
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
 	<name>Electrical - Dispatch Box</name>
 	<icon>dispatch_box.png</icon>
-	<aspectratio type="fixed"/>
-	<default-width>1cm</default-width>
-	<default-height>1cm</default-height>
 	<connections>
 		<point x="0"     y="0" main="yes"/>
 	</connections>
+	<aspectratio type="fixed"/>
+	<default-width>1cm</default-width>
+	<default-height>1cm</default-height>
 	<svg:svg>
 		<svg:circle style="fill: default" cx="0"     cy="0"     r="0.3" />
 		<svg:circle style="fill: black"   cx="0"     cy="0"     r="0.12" />
