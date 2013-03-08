@@ -3,7 +3,7 @@
 	<name>Electrical - Fuse Melt h</name>
 	<icon>fusemelt_h.png</icon>
 	<connections>
-		<point y="0"     x="0.5"/>
+		<point y="0"     x="0.5" main="yes"/>
 		<point y="0"     x="-0.5"/>
 	</connections>
 	<aspectratio type="fixed"/>

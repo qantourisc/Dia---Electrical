@@ -3,14 +3,14 @@
 	<name>Electrical - In tube v</name>
 	<icon>carrier_intube_v.png</icon>
 	<aspectratio type="fixed"/>
-	<default-width>1cm</default-width>
+	<default-width>0.5cm</default-width>
 	<default-height>1cm</default-height>
 	<svg:svg>
 		<svg:circle style="fill:none"  cy="0"     cx="-0.3"     r="0.2" />
 		<!-- filler to keep snapping sane and consistent -->
 		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
+		<svg:line style="stroke: none; fill: none" x1="0"    y1="0.5"  x2="0"    y2="0.5" />
+		<svg:line style="stroke: none; fill: none" x1="0"    y1="-0.5" x2="0"    y2="-0.5"/>
 		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
 	</svg:svg>
 </shape>

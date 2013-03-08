@@ -3,17 +3,17 @@
 	<name>Electrical - On wall v</name>
 	<icon>carrier_onwall_v.png</icon>
 	<aspectratio type="fixed"/>
-	<default-width>1cm</default-width>
+	<default-width>0.5cm</default-width>
 	<default-height>1cm</default-height>
 	<svg:svg>
-		<svg:line style="stroke-linecap: round" y1="-0.25" y2="0.25"  x1="0.2" x2="0.2" />
-		<svg:line style="stroke-linecap: round" y1="-0.25" y2="-0.25" x1="0.2" x2="0.45" />
-		<svg:line style="stroke-linecap: round" y1="0"     y2="0"     x1="0.2" x2="0.45" />
-		<svg:line style="stroke-linecap: round" y1="0.25"  y2="0.25"  x1="0.2" x2="0.45" />
+		<svg:line style="stroke-linecap: round" y1="-0.25" y2="0.25"  x1="0.15" x2="0.15" />
+		<svg:line style="stroke-linecap: round" y1="-0.25" y2="-0.25" x1="0.15" x2="0.4" />
+		<svg:line style="stroke-linecap: round" y1="0"     y2="0"     x1="0.15" x2="0.4" />
+		<svg:line style="stroke-linecap: round" y1="0.25"  y2="0.25"  x1="0.15" x2="0.4" />
 		<!-- filler to keep snapping sane and consistent -->
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
+		<svg:line style="stroke: none; fill: none" x1="0.5" y1="-0.5" x2="0.5" y2="-0.5"/>
+		<svg:line style="stroke: none; fill: none" x1="0"   y1="0.5"  x2="0"   y2="0.5" />
+		<svg:line style="stroke: none; fill: none" x1="0"   y1="-0.5" x2="0"   y2="-0.5"/>
+		<svg:line style="stroke: none; fill: none" x1="0.5" y1="0.5"  x2="0.5" y2="0.5" />
 	</svg:svg>
 </shape>

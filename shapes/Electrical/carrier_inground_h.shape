@@ -4,15 +4,15 @@
 	<icon>carrier_inground_h.png</icon>
 	<aspectratio type="fixed"/>
 	<default-width>1cm</default-width>
-	<default-height>1cm</default-height>
+	<default-height>0.5cm</default-height>
 	<svg:svg>
 		<svg:line style="stroke-linecap: round" x1="-0.25" x2="0.25" y1="-0.45" y2="-0.45" />
 		<svg:line style="stroke-linecap: round" x1="-0.18" x2="0.18" y1="-0.30" y2="-0.30" />
 		<svg:line style="stroke-linecap: round" x1="-0.11" x2="0.11" y1="-0.15" y2="-0.15" />
 		<!-- filler to keep snapping sane and consistent -->
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
+		<svg:line style="stroke-width:0; stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+		<svg:line style="stroke-width:0; stroke: none; fill: none" x1="0.5"  y1="0"    x2="0.5"  y2="0"   />
+		<svg:line style="stroke-width:0; stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
+		<svg:line style="stroke-width:0; stroke: none; fill: none" x1="-0.5" y1="0"    x2="-0.5" y2="0"   />
 	</svg:svg>
 </shape>
