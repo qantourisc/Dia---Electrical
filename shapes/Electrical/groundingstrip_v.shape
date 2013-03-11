@@ -19,12 +19,10 @@
 			<svg:line x1="-0.25" y1="0.55"  x2="0.25" y2="0.55"/>
 			<svg:line x1="0" x2="0" y1="1" y2="0.55"/>
 		</svg:g>
+		<!-- Filler to keep snapping sane and consistent -->
 		<svg:g style="stroke: none; fill: none">
-			<!-- Filler to keep snapping sane and consistent -->
 			<svg:line x1="-0.5" y1="-1" x2="-0.5" y2="-1"/>
 			<svg:line x1="0.5"  y1="1"  x2="0.5"  y2="1" />
-			<svg:line x1="0.5"  y1="-1" x2="0.5"  y2="-1"/>
-			<svg:line x1="-0.5" y1="1"  x2="-0.5" y2="1" />
 		</svg:g>
 	</svg:svg>
 </shape>
