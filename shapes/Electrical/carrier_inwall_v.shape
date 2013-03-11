@@ -6,10 +6,12 @@
 	<default-width>0.5cm</default-width>
 	<default-height>1cm</default-height>
 	<svg:svg>
-		<svg:line style="stroke-linecap: round" y1="-0.25" y2="0.25"  x1="-0.35" x2="-0.35" />
-		<svg:line style="stroke-linecap: round" y1="-0.25" y2="-0.25" x1="-0.35" x2="-0.1" />
-		<svg:line style="stroke-linecap: round" y1="0"     y2="0"     x1="-0.35" x2="-0.1" />
-		<svg:line style="stroke-linecap: round" y1="0.25"  y2="0.25"  x1="-0.35" x2="-0.1" />
+		<svg:g style="stroke-linecap: round"/>
+			<svg:line y1="-0.25" y2="0.25"  x1="-0.35" x2="-0.35" />
+			<svg:line y1="-0.25" y2="-0.25" x1="-0.35" x2="-0.1" />
+			<svg:line y1="0"     y2="0"     x1="-0.35" x2="-0.1" />
+			<svg:line y1="0.25"  y2="0.25"  x1="-0.35" x2="-0.1" />
+		</svg:g>
 		<!-- filler to keep snapping sane and consistent -->
 		<svg:g style="stroke: none; fill: none">
 			<svg:line x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>

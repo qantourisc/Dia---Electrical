@@ -14,18 +14,20 @@
 	<default-height>2cm</default-height>
 	<textbox x1="0.6" y1="0.6" x2="0.7" y2="0.3" align="left" resize="no"/>
 	<svg:svg>
-		<!-- TopRight -->
-		<svg:line   style="stroke-linecap: round" x2="0.43"  y2="-0.72" x1="0"     y1="0"     />
-		<svg:line   style="stroke-linecap: round" x1="0.43"  y1="-0.72" x2="0.63"  y2="-0.60" />
-		<!-- TopLeft -->
-		<svg:line   style="stroke-linecap: round" x2="-0.43" y2="-0.72" x1="0"     y1="0"     />
-		<svg:line   style="stroke-linecap: round" x1="-0.43" y1="-0.72" x2="-0.63" y2="-0.60" />
-		<!-- BottomLeft -->
-		<svg:line   style="stroke-linecap: round" x2="-0.43" y2="0.72"  x1="0"     y1="0"     />
-		<svg:line   style="stroke-linecap: round" x1="-0.43" y1="0.72"  x2="-0.63" y2="0.60"  />
-		<!-- BottomRight -->
-		<svg:line   style="stroke-linecap: round" x2="0.43"  y2="0.72"  x1="0"     y1="0"     />
-		<svg:line   style="stroke-linecap: round" x1="0.43"  y1="0.72"  x2="0.63"  y2="0.60"  />
+		<svg:g style="stroke-linecap: round">
+			<!-- TopRight -->
+			<svg:line x2="0.43"  y2="-0.72" x1="0"     y1="0"     />
+			<svg:line x1="0.43"  y1="-0.72" x2="0.63"  y2="-0.60" />
+			<!-- TopLeft -->
+			<svg:line x2="-0.43" y2="-0.72" x1="0"     y1="0"     />
+			<svg:line x1="-0.43" y1="-0.72" x2="-0.63" y2="-0.60" />
+			<!-- BottomLeft -->
+			<svg:line x2="-0.43" y2="0.72"  x1="0"     y1="0"     />
+			<svg:line x1="-0.43" y1="0.72"  x2="-0.63" y2="0.60"  />
+			<!-- BottomRight -->
+			<svg:line x2="0.43"  y2="0.72"  x1="0"     y1="0"     />
+			<svg:line x1="0.43"  y1="0.72"  x2="0.63"  y2="0.60"  />
+		</svg:g>
 		<!-- Circle (last) -->
 		<svg:circle style="fill: default;"        cx="0"     cy="0"     r="0.25" />
 		<!-- Filler to keep snapping sane and consistent -->

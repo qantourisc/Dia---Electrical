@@ -17,9 +17,11 @@
 		<svg:polygon style="stroke-linejoin: round; fill:default"
 			points="-0.6,-0.6 0.6,-0.6 0.6,0.6 -0.6,0.6"
 		/>
-		<svg:circle style="fill: black" cx="0.3" cy="0.3" r="0.15"/>
-		<svg:circle style="fill: black" cx="0.3" cy="-0.3" r="0.15"/>
-		<svg:circle style="fill: black" cx="-0.3" cy="0.3" r="0.15"/>
+		<svg:g style="fill: black">
+			<svg:circle cx="0.3" cy="0.3" r="0.15"/>
+			<svg:circle cx="0.3" cy="-0.3" r="0.15"/>
+			<svg:circle cx="-0.3" cy="0.3" r="0.15"/>
+		</svg:g>
 		<!-- Filler to keep snapping sane and consistent -->
 		<svg:g style="stroke: none; fill: none">
 			<svg:line x1="-1" y1="-1" x2="-1" y2="-1"/>
