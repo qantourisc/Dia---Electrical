@@ -25,6 +25,7 @@
 	<object name="Electrical - Sx1p"><description>4 Way Switch - 1 Pole</description></object>
 	<object name="Electrical - Sx2p"><description>4 Way Switch - 2 Pole</description></object>
 	<object name="Electrical - Sx4p"><description>4 Way Switch - 4 Pole</description></object>
+	<object name="Electrical - Switch Light"><description>Switch - Light</description></object>
 
 	<object name="Electrical - Socket r"><description>Socket (Right facing)</description></object>
 	<object name="Electrical - Socket l"><description>Socket (Left facing)</description></object>
