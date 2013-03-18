@@ -6,7 +6,7 @@
 	<default-width>0.5cm</default-width>
 	<default-height>1cm</default-height>
 	<svg:svg>
-		<svg:g style="stroke-linecap: round"/>
+		<svg:g style="stroke-linecap: round">
 			<svg:line y1="-0.25" y2="0.25"  x1="-0.35" x2="-0.35" />
 			<svg:line y1="-0.25" y2="-0.25" x1="-0.35" x2="-0.1" />
 			<svg:line y1="0"     y2="0"     x1="-0.35" x2="-0.1" />

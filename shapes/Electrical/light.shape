@@ -10,7 +10,7 @@
 	<default-height>1cm</default-height>
 	<textbox x1="0.15" y1="0.4" x2="0.15" y2="0.4" align="left" resize="no"/>
 	<svg:svg>
-		<svg:g style="stroke-linecap: round"/>
+		<svg:g style="stroke-linecap: round">
 			<svg:line x1="-0.25"  y1="-0.25" x2="0.25"  y2="0.25" />
 			<svg:line x1="-0.25"  y1="0.25" x2="0.25"  y2="-0.25" />
 		</svg:g>
