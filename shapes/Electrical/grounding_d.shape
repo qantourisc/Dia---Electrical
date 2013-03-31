@@ -10,14 +10,16 @@
 	<default-height>1cm</default-height>
 	<textbox x1="0.4" y1="0.4" x2="0.5" y2="0.1" align="left" resize="no"/>
 	<svg:svg>
-		<svg:line style="stroke-linecap: round" x1="0" x2="0" y1="0" y2="-0.1" />
-		<svg:line style="stroke-linecap: round" x1="-0.25" x2="0.25" y1="0"    y2="0"    />
-		<svg:line style="stroke-linecap: round" x1="-0.18" x2="0.18" y1="0.15" y2="0.15" />
-		<svg:line style="stroke-linecap: round" x1="-0.11" x2="0.11" y1="0.30" y2="0.30" />
+		<svg:g style="stroke-linecap: round">
+			<svg:line x1="0" x2="0" y1="0" y2="-0.1" />
+			<svg:line x1="-0.25" x2="0.25" y1="0"    y2="0"    />
+			<svg:line x1="-0.18" x2="0.18" y1="0.15" y2="0.15" />
+			<svg:line x1="-0.11" x2="0.11" y1="0.30" y2="0.30" />
+		</svg:g>
 		<!-- filler to keep snapping sane and consistent -->
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
+		<svg:g style="stroke: none; fill: none">
+			<svg:line x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+			<svg:line x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
+		</svg:g>
 	</svg:svg>
 </shape>

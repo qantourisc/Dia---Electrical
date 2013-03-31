@@ -3,7 +3,7 @@
 	<name>Electrical - Fuse Melt h</name>
 	<icon>fusemelt_h.png</icon>
 	<connections>
-		<point y="0"     x="0.5"/>
+		<point y="0"     x="0.5" main="yes"/>
 		<point y="0"     x="-0.5"/>
 	</connections>
 	<aspectratio type="fixed"/>
@@ -17,9 +17,9 @@
 		<svg:line style="stroke-linecap: round" x1="-0.5" x2="0.5" y1="0" y2="0"/>
 
 		<!-- Filler to keep snapping sane and consistent -->
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
+		<svg:g style="stroke: none; fill: none">
+			<svg:line x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+			<svg:line x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
+		</svg:g>
 	</svg:svg>
 </shape>

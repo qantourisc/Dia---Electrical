@@ -25,80 +25,81 @@
 	<object name="Electrical - Sx1p"><description>4 Way Switch - 1 Pole</description></object>
 	<object name="Electrical - Sx2p"><description>4 Way Switch - 2 Pole</description></object>
 	<object name="Electrical - Sx4p"><description>4 Way Switch - 4 Pole</description></object>
+	<object name="Electrical - Switch Light"><description>Switch - Light</description></object>
 
-	<object name="Electrical - Socket r"><description>Socket →</description></object>
-	<object name="Electrical - Socket l"><description>Socket ←</description></object>
-	<object name="Electrical - Socket v"><description>Socket ↕</description></object>
-	<object name="Electrical - SocketGround r"><description>Socket grounded →</description></object>
-	<object name="Electrical - SocketGround l"><description>Socket grounded ←</description></object>
-	<object name="Electrical - SocketGround v"><description>Socket grounded ↕</description></object>
-	<object name="Electrical - SocketChild r"><description>Socket child-proof →</description></object>
-	<object name="Electrical - SocketChild l"><description>Socket child-proof ←</description></object>
-	<object name="Electrical - SocketChild v"><description>Socket child-proof ↕</description></object>
-	<object name="Electrical - SocketGroundChild r"><description>Socket grounded child-proof →</description></object>
-	<object name="Electrical - SocketGroundChild l"><description>Socket grounded child-proof ←</description></object>
-	<object name="Electrical - SocketGroundChild v"><description>Socket grounded child-proof ↕</description></object>
+	<object name="Electrical - Socket r"><description>Socket (Right facing)</description></object>
+	<object name="Electrical - Socket l"><description>Socket (Left facing)</description></object>
+	<object name="Electrical - Socket v"><description>Socket (Vertical)</description></object>
+	<object name="Electrical - SocketGround r"><description>Socket grounded (Right facing)</description></object>
+	<object name="Electrical - SocketGround l"><description>Socket grounded (Left facing)</description></object>
+	<object name="Electrical - SocketGround v"><description>Socket grounded (Vertical)</description></object>
+	<object name="Electrical - SocketChild r"><description>Socket child-proof (Right facing)</description></object>
+	<object name="Electrical - SocketChild l"><description>Socket child-proof (Left facing)</description></object>
+	<object name="Electrical - SocketChild v"><description>Socket child-proof (Vertical)</description></object>
+	<object name="Electrical - SocketGroundChild r"><description>Socket grounded child-proof (Right facing)</description></object>
+	<object name="Electrical - SocketGroundChild l"><description>Socket grounded child-proof (Left facing)</description></object>
+	<object name="Electrical - SocketGroundChild v"><description>Socket grounded child-proof (Vertical)</description></object>
 
 	<object name="Electrical - Light"><description>Light</description></object>
-	<object name="Electrical - Bel r"><description>Bel →</description></object>
-	<object name="Electrical - Bel l"><description>Bel ←</description></object>
-	<object name="Electrical - Bel v"><description>Bel ↕</description></object>
-	<object name="Electrical - Buzzer r"><description>Buzzer →</description></object>
-	<object name="Electrical - Buzzer l"><description>Buzzer ←</description></object>
-	<object name="Electrical - Buzzer v"><description>Buzzer ↕</description></object>
+	<object name="Electrical - Bel r"><description>Bel (Right facing)</description></object>
+	<object name="Electrical - Bel l"><description>Bel (Left facing)</description></object>
+	<object name="Electrical - Bel v"><description>Bel (Vertical)</description></object>
+	<object name="Electrical - Buzzer r"><description>Buzzer (Right facing)</description></object>
+	<object name="Electrical - Buzzer l"><description>Buzzer (Left facing)</description></object>
+	<object name="Electrical - Buzzer v"><description>Buzzer (Vertical)</description></object>
 
-	<object name="Electrical - Fuse Melt v"><description>Fuse Melt ↕</description></object>
-	<object name="Electrical - Fuse Melt h"><description>Fuse Melt ↔</description></object>
-	<object name="Electrical - Fuse Auto v"><description>Fuse Auto ↕</description></object>
-	<object name="Electrical - Fuse Auto h"><description>Fuse Auto ↔</description></object>
+	<object name="Electrical - Fuse Melt v"><description>Fuse Melt (Vertical)</description></object>
+	<object name="Electrical - Fuse Melt h"><description>Fuse Melt (Horizontal)</description></object>
+	<object name="Electrical - Fuse Auto v"><description>Fuse Auto (Vertical)</description></object>
+	<object name="Electrical - Fuse Auto h"><description>Fuse Auto (Horizontal)</description></object>
 
 	<object name="Electrical - Device"><description>Fixed Generic Device</description></object>
 	<object name="Electrical - Device Furnace"><description>Fixed Furnace</description></object>
 
-	<object name="Electrical - Grounding Strip v"><description>Grounding Strip ↕</description></object>
+	<object name="Electrical - Grounding Strip v"><description>Grounding Strip (Vertical)</description></object>
 	<object name="Electrical - Dispatch Box"><description>Dispatch Box</description></object>
-	<object name="Electrical - Dispatch Panel h"><description>Dispatch Panel ↔</description></object>
+	<object name="Electrical - Dispatch Panel h"><description>Dispatch Panel (Horizontal)</description></object>
 
 	<object name="Electrical - Grounding d"><description>Grounding ↓</description></object>
-	<object name="Electrical - DC h"><description>Direct Current ↔</description></object>
-	<object name="Electrical - AC h"><description>Alternating Current ↔</description></object>
-	<object name="Electrical - AC3 h"><description>Alternating Current - 3 Phase ↔</description></object>
-	<object name="Electrical - AC1 h"><description>Alternating Current - 1 Phase ↔</description></object>
-	<object name="Electrical - DC v"><description>Direct Current ↕</description></object>
-	<object name="Electrical - AC v"><description>Alternating Current ↕</description></object>
-	<object name="Electrical - AC1 v"><description>Alternating Current - 1 Phase ↕</description></object>
-	<object name="Electrical - AC3 v"><description>Alternating Current - 3 Phase ↕</description></object>
+	<object name="Electrical - DC h"><description>Direct Current (Horizontal)</description></object>
+	<object name="Electrical - AC h"><description>Alternating Current (Horizontal)</description></object>
+	<object name="Electrical - AC3 h"><description>Alternating Current - 3 Phase (Horizontal)</description></object>
+	<object name="Electrical - AC1 h"><description>Alternating Current - 1 Phase (Horizontal)</description></object>
+	<object name="Electrical - DC v"><description>Direct Current (Vertical)</description></object>
+	<object name="Electrical - AC v"><description>Alternating Current (Vertical)</description></object>
+	<object name="Electrical - AC1 v"><description>Alternating Current - 1 Phase (Vertical)</description></object>
+	<object name="Electrical - AC3 v"><description>Alternating Current - 3 Phase (Vertical)</description></object>
 
-	<object name="Electrical - In ground h"><description>Carrier underground ↔</description></object>
-	<object name="Electrical - In wall h"><description>Carrier in wall ↔</description></object>
-	<object name="Electrical - On wall h"><description>Carrier on wall ↔</description></object>
-	<object name="Electrical - In tube h"><description>Carrier in tube ↔</description></object>
+	<object name="Electrical - In ground h"><description>Carrier underground (Horizontal)</description></object>
+	<object name="Electrical - In wall h"><description>Carrier in wall (Horizontal)</description></object>
+	<object name="Electrical - On wall h"><description>Carrier on wall (Horizontal)</description></object>
+	<object name="Electrical - In tube h"><description>Carrier in tube (Horizontal)</description></object>
 
 	<object name="Electrical - In air"><description>Carrier in air</description></object>
 
-	<object name="Electrical - In ground v"><description>Carrier underground ↕</description></object>
-	<object name="Electrical - On wall v"><description>Carrier on wall ↕</description></object>
-	<object name="Electrical - In wall v"><description>Carrier in wall ↕</description></object>
-	<object name="Electrical - In tube v"><description>Carrier in tube ↕</description></object>
+	<object name="Electrical - In ground v"><description>Carrier underground (Vertical)</description></object>
+	<object name="Electrical - On wall v"><description>Carrier on wall (Vertical)</description></object>
+	<object name="Electrical - In wall v"><description>Carrier in wall (Vertical)</description></object>
+	<object name="Electrical - In tube v"><description>Carrier in tube (Vertical)</description></object>
 
-	<object name="Electrical - 1 wire h"><description>Carrier: 1 wire ↔</description></object>
-	<object name="Electrical - 2 wire h"><description>Carrier: 2 wires ↔</description></object>
-	<object name="Electrical - 3 wire h"><description>Carrier: 3 wires ↔</description></object>
-	<object name="Electrical - n wire h"><description>Carrier: n wires ↔(set font to 12pt)</description></object>
+	<object name="Electrical - 1 wire h"><description>Carrier: 1 wire (Horizontal)</description></object>
+	<object name="Electrical - 2 wire h"><description>Carrier: 2 wires (Horizontal)</description></object>
+	<object name="Electrical - 3 wire h"><description>Carrier: 3 wires (Horizontal)</description></object>
+	<object name="Electrical - n wire h"><description>Carrier: n wires (set font to 12pt - Horizontal)</description></object>
 
-	<object name="Electrical - 1 wire v"><description>Carrier: 1 wire ↕</description></object>
-	<object name="Electrical - 2 wire v"><description>Carrier: 2 wires ↕</description></object>
-	<object name="Electrical - 3 wire v"><description>Carrier: 3 wires ↕</description></object>
-	<object name="Electrical - n wire v"><description>Carrier: n wires ↕(set font to 12pt)</description></object>
+	<object name="Electrical - 1 wire v"><description>Carrier: 1 wire (Vertical)</description></object>
+	<object name="Electrical - 2 wire v"><description>Carrier: 2 wires (Vertical)</description></object>
+	<object name="Electrical - 3 wire v"><description>Carrier: 3 wires (Vertical)</description></object>
+	<object name="Electrical - n wire v"><description>Carrier: n wires (set font to 12pt- Vertical)</description></object>
 
-	<object name="Electrical - 1 carrier h"><description>Carriers 1 ↔</description></object>
-	<object name="Electrical - 2 carriers h"><description>Carriers 2 ↔</description></object>
-	<object name="Electrical - 3 carriers h"><description>Carriers 3 ↔</description></object>
-	<object name="Electrical - n carriers h"><description>Carriers n ↔ (set font to 12pt)</description></object>
+	<object name="Electrical - 1 carrier h"><description>Carriers 1 (Horizontal)</description></object>
+	<object name="Electrical - 2 carriers h"><description>Carriers 2 (Horizontal)</description></object>
+	<object name="Electrical - 3 carriers h"><description>Carriers 3 (Horizontal)</description></object>
+	<object name="Electrical - n carriers h"><description>Carriers n (set font to 12pt - Horizontal)</description></object>
 
-	<object name="Electrical - 1 carrier v"><description>Carriers 1 ↕</description></object>
-	<object name="Electrical - 2 carriers v"><description>Carriers 2 ↕</description></object>
-	<object name="Electrical - 3 carriers v"><description>Carriers 3 ↕</description></object>
-	<object name="Electrical - n carriers v"><description>Carriers n ↕ (set font to 12pt)</description></object>
+	<object name="Electrical - 1 carrier v"><description>Carriers 1 (Vertical)</description></object>
+	<object name="Electrical - 2 carriers v"><description>Carriers 2 (Vertical)</description></object>
+	<object name="Electrical - 3 carriers v"><description>Carriers 3 (Vertical)</description></object>
+	<object name="Electrical - n carriers v"><description>Carriers n (set font to 12pt- Vertical)</description></object>
 </contents>
 </sheet>

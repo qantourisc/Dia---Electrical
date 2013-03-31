@@ -4,7 +4,7 @@
 	<icon>fusemelt_v.png</icon>
 	<connections>
 		<point x="0"     y="0.5"/>
-		<point x="0"     y="-0.5"/>
+		<point x="0"     y="-0.5" main="yes"/>
 	</connections>
 	<aspectratio type="fixed"/>
 	<default-width>1cm</default-width>
@@ -17,9 +17,9 @@
 		<svg:line style="stroke-linecap: round" y1="-0.5" y2="0.5" x1="0" x2="0"/>
 
 		<!-- Filler to keep snapping sane and consistent -->
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
-		<svg:line style="stroke: none; fill: none" x1="0.5"  y1="-0.5" x2="0.5"  y2="-0.5"/>
-		<svg:line style="stroke: none; fill: none" x1="-0.5" y1="0.5"  x2="-0.5" y2="0.5" />
+		<svg:g style="stroke: none; fill: none">
+			<svg:line x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.5"/>
+			<svg:line x1="0.5"  y1="0.5"  x2="0.5"  y2="0.5" />
+		</svg:g>
 	</svg:svg>
 </shape>
