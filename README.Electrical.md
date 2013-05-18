@@ -20,8 +20,8 @@ Installation
 Place sheets/\* in ~/.dia/sheets.
 Place shapes/electrical\_be in ~/.dia/shapes/.
 ###Windows
-Similar, but don't know the locations.
-(Feel free to tell me where.)
+Place sheets/\* in %HOMEPATH%/.dia/sheets.
+Place shapes/electrical\_be in %HOMEPATH%/.dia/shapes/.
 
 FAQ
 ---
