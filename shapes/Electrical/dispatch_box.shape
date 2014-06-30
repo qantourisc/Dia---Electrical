@@ -11,6 +11,8 @@
 	<svg:svg>
 		<svg:g style="fill: default">
 			<svg:circle cx="0"     cy="0"     r="0.3" />
+		</svg:g>
+		<svg:g style="fill: black">
 			<svg:circle cx="0"     cy="0"     r="0.12" />
 		</svg:g>
 		<!-- filler to keep snapping sane and consistent -->
